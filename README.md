@@ -1,4 +1,6 @@
-Class Boilerplate
+IN202 – Applications de l'informatique
 =================
 
-Boilerplate Jekyll code for class material.
+Notes de cours pour le cours *Applications de l'informatique* du *L1
+d'informatique*, par [Luca De Feo](http://defeo.lu).
+
