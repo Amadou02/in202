@@ -20,7 +20,7 @@ Cours 1 (19/01/2015)
 : [Structuration de contenus (HTML)](classes/class1)
 
 Cours 2 (26/01/2015)
-: CSS
+: [Contenu et forme (CSS)](classes/class2)
 
 Cours 3 (02/02/2015)
 : Git
