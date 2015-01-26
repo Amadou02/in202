@@ -71,7 +71,7 @@ Aidez vous avec la
 5. Modifiez la couleur du texte et du fond des titres (propriétés
    `color` et `background-color`)
 
-6. Encadrez les sections (propriétés `border-size`, `border-color`,
+6. Encadrez les sections (propriétés `border-width`, `border-color`,
    `border-style` et `border`).
 
 7. Ajoutez de l'espace à l'intérieur de cadre des sections (propriétés
