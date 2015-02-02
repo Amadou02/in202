@@ -10,7 +10,7 @@ title: IN202 – Applications de l'informatique
 **Chargé de cours et de TD :** Luca De Feo <http://defeo.lu/>.
 
 **Cours :** Lundi 8h00 - 9h30, amphi A,  
-**TDs :** Lundi 9h45 - 13h00, salle Alsace,  
+**TDs :** Vendredi 9h45 - 13h00, salle G203,  
 
 ## Cours
 
