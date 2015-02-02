@@ -81,6 +81,13 @@ sont encore complexifiées.
 </section>
 <section>
 
+## [Démonstration de `inline-block`](http://codepen.io/defeo/pen/emGzWM)
+{: .codepen data-height="768" data-slug-hash="emGzWM"
+   data-default-tab="css" data-user="defeo" }
+
+</section>
+<section>
+
 ## Le *flux*
 
 ### Flux normal
@@ -97,6 +104,12 @@ Les boîtes peuvent sortir du flux en **flottant** :
 
 Uniquement utile pour insérer des figures dans un texte.
 
+</section>
+<section>
+
+## [Démonstration de `float`](http://codepen.io/defeo/pen/dPVXRE)
+{: .codepen data-height="768" data-slug-hash="dPVXRE"
+   data-default-tab="css" data-user="defeo" }
 
 </section>
 <section>
@@ -124,6 +137,13 @@ en étant positionnées explicitement, grâce à la propriété CSS
 
 Les coordonnées de positionnement sont spécifiées par les propriétés
 `left`, `right`, `top` et `bottom`.
+
+</section>
+<section>
+
+## [Démonstration de `position`](http://codepen.io/defeo/pen/vEeKWY)
+{: .codepen data-height="768" data-slug-hash="vEeKWY"
+   data-default-tab="css" data-user="defeo" }
 
 </section>
 <section>
@@ -177,6 +197,13 @@ Les coordonnées de positionnement sont spécifiées par les propriétés
 </section>
 <section>
 
+## [Démonstration de Flexbox](http://codepen.io/defeo/pen/LEzZQo/)
+{: .codepen data-height="768" data-slug-hash="LEzZQo"
+   data-default-tab="css" data-user="defeo" }
+
+</section>
+<section>
+
 # Pour conclure
 
 </section>
@@ -210,5 +237,6 @@ Laissez faire cela aux experts : utilisez un *frontend framework*.
 - Pagination.
 - ...
 
-
 </section>
+
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
