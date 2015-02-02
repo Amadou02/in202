@@ -1,0 +1,1 @@
+- Trop de `style="..."` dans TD 1.
