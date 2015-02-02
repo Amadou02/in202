@@ -23,10 +23,10 @@ Cours 2 (26/01/2015)
 : [Contenu et forme (CSS)](classes/class2)
 
 Cours 3 (02/02/2015)
-: Git
+: [Mise en page avec CSS](classes/class3)
 
 Cours 4 (09/02/2015)
-: Jekyll templates
+: Git
 
 
 ### Partie 2: visualisation de données
