@@ -1,5 +1,5 @@
 baseurl: /in202
-permalink: /:categories/:title
+permalink: pretty
 
 kramdown:
   parse_block_html: true

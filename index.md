@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: main
 title: IN202 – Applications de l'informatique
 ---
 
