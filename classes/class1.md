@@ -175,6 +175,7 @@ Hypertexte **lisibles par un human** (!!!)
 <html>
 	<head>
 		<title>Le titre du document</title>
+		<meta charset="utf-8" />
 		...
 	</head>
 	<body>
