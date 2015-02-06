@@ -184,3 +184,8 @@ nav {
 
 1. Colorez le fond des `<section>` alternativement en une couleur
    claire et une couleur sombre (pseudo-classe `:nth-child`).
+
+
+## Une ébauche de solution
+
+{% include codepen.md tab='html' pen='emegmW' %}
