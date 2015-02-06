@@ -28,7 +28,7 @@ net. Dans les prochaines séances, nous allons changer cela.
 
 1. Créez un fichier `index.html`, qui va être la page d'accueil de
    votre site. Préparez le fichier avec le squelette HTML habituel
-   (voir [cours](../classes/class1)).
+   (voir [cours](../../classes/class1#un-document-html)).
 
 1. Éditez le contenu de la balise `<title>`, et ajoutez un paragraphe
    de texte dans le `<body>`. Ouvrez le fichier dans un navigateur (un
@@ -78,7 +78,7 @@ site.
 
 1. Créez un dossier `css`, et à son intérieur un fichier
    `style.css`. À l'aide de la balise `<link>`, attachez cette feuille
-   de style à votre page HTML (voir [cours](classes/class2)).
+   de style à votre page HTML (voir [cours](../../classes/class2#html-et-css)).
 
 1. En éditant uniquement le fichier `style.css`, ajoutez du style à
    votre page. Changez ses couleurs (fond et texte), sa largeur et ses
