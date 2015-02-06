@@ -62,3 +62,6 @@ Cours 12 (20/04/2015)
 
 TD1 (26/01/2015)
 : [Premiers pas en HTML et CSS](tutorials/tutorial1)
+
+TD2 (06/02/2015)
+: [Mon site personnel et CSS avancé](tutorials/tutorial2)
