@@ -141,8 +141,10 @@ l'exemple suivant.
 	}
 }
 
-nav {
-	background-color: black;
+@media (min-width: 600px) {
+	nav {
+		background-color: black;
+	}
 }
 ~~~
 
