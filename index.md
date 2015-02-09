@@ -26,7 +26,7 @@ Cours 3 (02/02/2015)
 : [Mise en page avec CSS](classes/class3)
 
 Cours 4 (09/02/2015)
-: Git
+: [Contrôle de version](classes/class4)
 
 
 ### Partie 2: visualisation de données
