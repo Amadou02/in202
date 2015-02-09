@@ -96,7 +96,7 @@ html[data-incremental="4"] #cursor {
 
 ### Commandes principales
 
-- Naviguer et modifier les dossiers : `ls`, `cd`, `rm`, `mdkir`, `rmdir`, ...
+- Naviguer et modifier les dossiers : `ls`, `cd`, `rm`, `mkdir`, `rmdir`, ...
 - Interroger les ressources du système : processus, hardware, ...
 - Exécuter des programmes (nom du programme),
 - Automatiser des commandes (scripting).
@@ -313,6 +313,7 @@ tous les développeurs se synchronisent.
 - Récupérer une version alternative d'un fichier : `git checkout`,
 - Remonter le temps : `git reset`, `git revert`,
 - Créer une branche : `git branch`,
+- Fusionner : `git merge`,
 - ...
 
 </section>
