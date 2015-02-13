@@ -72,6 +72,7 @@ commandes.
    ~~~
    cd TD3
    pwd
+   touch fichier-vide
    ls
    ls ../TD3
    ~~~
