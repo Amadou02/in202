@@ -65,3 +65,6 @@ TD1 (26/01/2015)
 
 TD2 (06/02/2015)
 : [Mon site personnel et CSS avancé](tutorials/tutorial2)
+
+TD3 (13/02/2015)
+: [Terminal et Git](tutorials/tutorial3)
