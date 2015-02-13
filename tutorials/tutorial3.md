@@ -300,6 +300,14 @@ ou, sous linux,
 sudo npm install -g ungit
 ~~~
 
+ou encore, dans les cartables numériques, (attention, ceci ne durera
+que pour la session courante)
+
+~~~
+npm install ungit
+alias ungit=../node_modules/ungit/bin/ungit
+~~~
+
 Puis, lancez le logiciel en tapant `ungit`. Le navigateur s'ouvrira
 alors à l'adresse <http://localhost:8448/>, et une visualisation de
 l'*arbre* de votre projet git apparaîtra.
