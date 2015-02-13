@@ -209,6 +209,7 @@ touche *tab* pour compléter.
    
    ~~~
    git status
+   git diff
    git add a.txt
    git status
    git commit -m "Premier commit"
