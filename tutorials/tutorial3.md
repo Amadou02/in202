@@ -320,8 +320,15 @@ Visitez l'URL <http://moi.github.io/> (remplacez `moi` par votre nom
 d'utilisateur, comme d'habitude). Cette page web est la votre, vous
 pouvez en disposer comme vous le souhaitez.
 
-Reprenez le travail du [TD passé](../tutorial2), et faites-en votre
-page web personnelle.
+1. Reprenez le travail du [TD passé](../tutorial2), et faites-en votre
+   page web personnelle.
+
+2. Validez votre page HTML à l'aide du validateur du W3C :
+   <http://validator.w3.org/>. Renseignez l'adresse web de votre page
+   dans le champs *Address* et cliquez *Check*. Cet outil vous donnera
+   la liste des erreurs de syntaxe HTML de votre document. Corrigez
+   votre page jusqu'à ne plus avoir d'erreurs (quelques *warnings*
+   sont acceptables).
 
 **Votre travail sera noté, vous avez jusqu'au jeudi 19 février à
 minuit pour le compléter.**
