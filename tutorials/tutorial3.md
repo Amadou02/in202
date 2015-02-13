@@ -78,7 +78,7 @@ commandes.
 
 1. Lancez un éditeur de texte. Sous Windows, tapez la commande
    `notepad`. Sous Linux tapez le nom d'un éditeur de texte présent
-   sur votre système, par exemple `gedit`. Sous Mac, tapez `TextEdit`.
+   sur votre système, par exemple `geany`. Sous Mac, tapez `TextEdit`.
 
 1. Écrivez quelque ligne dans l'éditeur de texte, et sauvegardez sous
    le nom `test.txt`.
