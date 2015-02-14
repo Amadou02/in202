@@ -90,7 +90,7 @@ commandes.
    cat test.txt
    ~~~
 
-1. Tapez
+1. (Uniquement sous Mac/Linux) Tapez
    
    ~~~
    less text.txt
@@ -144,8 +144,6 @@ Alternativement, vous pouvez installer le client Git de GitHub,
 téléchargeable ici : <http://windows.github.com> (uniquement pour
 Windows 7 ou plus). msysGit sera installé avec.
 
-Installez ensuite Node.js : <http://nodejs.org/download/>.
-
 
 ### Mac
 
@@ -155,27 +153,21 @@ téléchargeable ici : <http://mac.github.com>.
 Alternativement, vous pouvez taper `git` dans le terminal, et l'OS
 vous proposera d'installer Git s'il n'est pas déjà présent.
 
-Installez ensuite Node.js : <http://nodejs.org/download/>.
-
 
 ### Linux et VM
 
-Git est déjà installé sur les cartables numériques. Pour les autres
-Linux, on installera la version contenue dans les paquets standards.
+Git est déjà installé sur les cartables numériques, **vous pouvez
+sauter cette étape** dans ce cas. Pour les autres Linux, on installera
+la version contenue dans les paquets standards.
 
 Sous Ubuntu, Debian et similaires, taper dans un terminal
 
 ~~~
-sudo apt-get install git gitk
+sudo apt-get install git git-gui gitk
 ~~~
 
 le mot de passe utilisateur des VM est *user*.
 
-Installez ensuite Node.js avec la commande
-
-~~~
-sudo apt-get install nodejs nodejs-dev nodejs-legacy npm
-~~~
 
 ### Découverte de Git
 
@@ -288,30 +280,18 @@ git clone https://github.com/moi/moi.github.io.git
    
    Que s'est-il passé ? Poussez maintenant.
 
-Vous pouvez analyser la situation de façon plus visuelle avec le
-logiciel gitk, ou encore avec unGit. Installez unGit avec la commande
+1. Analysez le même log avec un client graphique : tapez la commande
+   `gitk` dans Mac/Linux, ou `gitk.cmd` dans Windows.
 
-~~~
-npm install -g ungit
-~~~
+D'autres choix de client graphique s'offrent à vous :
 
-ou, sous linux,
+- Le client GitHub pour [Mac](http://mac.github.com/) ou
+  [Windows](http://windows.github.com/).
 
-~~~
-sudo npm install -g ungit
-~~~
+- L'interface web de GitHub, à l'adresse
+  <https://github.com/moi/moi.github.io/network>.
 
-ou encore, dans les cartables numériques, (attention, ceci ne durera
-que pour la session courante)
-
-~~~
-npm install ungit
-alias ungit=../node_modules/ungit/bin/ungit
-~~~
-
-Puis, lancez le logiciel en tapant `ungit`. Le navigateur s'ouvrira
-alors à l'adresse <http://localhost:8448/>, et une visualisation de
-l'*arbre* de votre projet git apparaîtra.
+- Le client multi-plateforme [git cola](http://git-cola.github.io/).
 
 
 ## Ma page personnelle
