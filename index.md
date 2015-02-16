@@ -25,25 +25,24 @@ Cours 2 (26/01/2015)
 Cours 3 (02/02/2015)
 : [Mise en page avec CSS](classes/class3)
 
+### Partie 2: contrôle de version
+
 Cours 4 (09/02/2015)
 : [Contrôle de version](classes/class4)
 
-
-### Partie 2: visualisation de données
-
 Cours 5 (16/02/2015)
-: Notebook IPython
+: [Concepts de Git](classes/class5)
 
 Cours 6 (02/03/2015)
-: Python
+: Branches et gestion de conflits
+
+### Partie 3: presentation et traitement de données 
 
 Cours 7 (09/03/2015)
-: Matplotlib, pylab
+: Python
 
 Cours 8 (16/03/2015)
 : Matplotlib, pylab
-
-### Partie 3: traitement de données 
 
 Cours 9 (23/02/2015)
 : 
@@ -52,7 +51,7 @@ Cours 10 (30/03/2015)
 : 
 
 Cours 11 (13/04/2015)
-: Benchmarking
+: 
 
 Cours 12 (20/04/2015)
 : 
