@@ -1,7 +1,7 @@
 ---
 layout: slideshow
 title: Concepts de Git
-subtitle: commits
+subtitle: Diffs, commits, branches, remotes
 ---
 
 <section>
@@ -136,7 +136,7 @@ commit 3fb01d6b6d561cfa77f5f441353e90a6f842f4c1
 - Interface graphique
   
   ~~~
-  git-gui
+  git gui
   ~~~
 
 - Interface web (ex. : GitHub) : <https://github.com/defeo/in202.github.io/edit/master/README.md>
