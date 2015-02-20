@@ -42,8 +42,8 @@ ne doit pas nécessairement s'agir d'une adresse réelle). Ceci vous
 Tapez les commandes
 
 ~~~
-git config user.name "Votre nom"
-git config user.email "vous@votre_ordinateur"
+git config --global user.name "Votre nom"
+git config --global user.email "vous@votre_ordinateur"
 ~~~
 
 
@@ -56,7 +56,7 @@ git config user.email "vous@votre_ordinateur"
 
 1. Dans les réglages du projet, sélectionnez l'onglet
    **Collaborators** (url
-   <http://github.com/moi/TD3/settings/collaboration>, remplacez *moi*
+   <http://github.com/moi/TD4/settings/collaboration>, remplacez *moi*
    par votre nom d'utilisateur). Renseignez l'identifiant GitHub de **B**
    dans la case, et cliquez sur **Add collaborator**. Votre mot de passe
    vous sera demandé. Maintenant vous avez tous les deux les droits en
@@ -361,7 +361,7 @@ comme une page web à l'adresse
 1. Poussez. Analysez la situation avec `branch -avv` et avec
    `gitk`. Allez dans l'interface web de GitHub et observez les
    branches connues par celui-ci (URL
-   <https://github.com/moi/TD3/branches>).
+   <https://github.com/moi/TD4/branches>).
 
 1. Poussez la branche `gh-pages` avec la commande
    
@@ -373,7 +373,7 @@ comme une page web à l'adresse
 {:.B}
 
 
-Visitez l'URL <http://moi.github.io/TD3>, où `moi` est remplacé par le
+Visitez l'URL <http://moi.github.io/TD4>, où `moi` est remplacé par le
 nom d'utilisateur de **A** (le propriétaire du répertoire). La page
 `index.html` doit être maintenant en ligne.
 
@@ -418,7 +418,7 @@ exécutez `push --ff-only`.
    Vous voyez dans la sortie de la commande, que cela a poussé la
    branche `gh-pages`. Vérifiez avec `gitk` et avec l'interface web de
    GitHub. Vérifiez que les modifications sont bien appliquées à
-   <http://moi.github.io/TD3>.
+   <http://moi.github.io/TD4>.
 
 1. Revenez à la branche `master` avec la commande `checkout master`.
 {:.A}
@@ -486,7 +486,7 @@ plus possible. Ici nous créons deux histoires divergentes qui peuvent
 1. Analysez la situation avec `gitk`.
 
 1. Analysez la situation dans le graphe de GitHub, à l'adresse
-   <http://github.com/moi/TD3/network>.
+   <http://github.com/moi/TD4/network>.
 {:.B}
 
 
@@ -546,13 +546,13 @@ original de tirer les contributions, plutôt que des les pousser sans
 demander dans son répertoire.
 
 1. Créez un *fork* du répertoire d'origine en cliquant sur le bouton
-   *fork* dans l'interface web (URL <https://github.com/moi/TD3/fork>.
+   *fork* dans l'interface web (URL <https://github.com/moi/TD4/fork>.
 
 1. Ajoutez votre propre fork aux *remotes* de votre répertoire local
    avec la commande
    
    ~~~
-   git remote add my_fork https://github.com/moiB/TD3.git
+   git remote add my_fork https://github.com/moiB/TD4.git
    ~~~
 
 1. Faites *tracer* la branche `master` de votre nouveau fork par la branche
@@ -577,7 +577,7 @@ demander dans son répertoire.
    et `gitk`.
 
 1. Visitez la page web de votre fork et créez une *pull request* (URL
-   https://github.com/moiB/TD3/compare/). Donnez un message expliquant
+   https://github.com/moiB/TD4/compare/). Donnez un message expliquant
    pourquoi vous voulez que vos modifications soient reçues.
 {:.B}
 
@@ -608,7 +608,7 @@ façon collaborative, attaquez vous au contenu de votre site.
 
 Commitez et poussez/tirez souvent, ceci à fin de ne jamais être trop
 désynchronisés. Résolvez les conflits lorsque nécessaire. Publiez
-votre travail sur les deux adresses <http://moiA.github.io/TD3> et
-<http://moiB.github.io/TD3> en mettant à jour la branche `gh-pages`.
+votre travail sur les deux adresses <http://moiA.github.io/TD4> et
+<http://moiB.github.io/TD4> en mettant à jour la branche `gh-pages`.
 
 </div>
