@@ -44,6 +44,7 @@ Tapez les commandes
 ~~~
 git config --global user.name "Votre nom"
 git config --global user.email "vous@votre_ordinateur"
+git config --global push.default "simple"
 ~~~
 
 
@@ -348,8 +349,11 @@ instructions pour le gagnant sont en vert (droite).
    dernier commit, que nous pouvons sélectionner avec l'alias `HEAD`.
    
    ~~~
-   git revert HEAD
+   git revert -n HEAD
    ~~~
+   
+   Observez ce qui s'est passé avec les commandes `status` et
+   `diff`. Committez.
 
 1. Analysez la nouvelle situation avec les commandes `log`, `show` et
    avec *gitk*.
