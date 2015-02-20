@@ -211,6 +211,7 @@ problème, copiez-collez cette commande dans le terminal.
 ~~~
 curl https://gist.githubusercontent.com/defeo/d79877d8548c390028df/raw/apt.sh | /bin/bash
 ~~~
+{:.no-highlight}
 
 Il vous sera demandé le mot de passe utilisateur (rappel: user).
 
@@ -271,12 +272,22 @@ préalablement résoudre le conflit de votre côté.
 
 1. Faites un `fetch`.
 
-1. Analysez la situation avec l'outil `gitk` (tapez uniquement `gitk`,
-   pas `git gitk`, dans Mac/Linux ; tapez `gitk.cmd` dans
-   Windows). Puisque `gitk` bloque le terminal, vous allez devoir
+1. Analysez la situation avec l'outil *gitk*. Dans Mac/Linux
+
+   ~~~
+   gitk --all &
+   ~~~
+   
+   dans Windows
+   
+   ~~~
+   gitk.cmd --all
+   ~~~
+   
+   Puisque *gitk* bloque le terminal, vous allez devoir
    ouvrir un deuxième terminal pour continuer à travailler
    (alternativement, sous Mac/Linux, vous pouvez taper `gitk &` pour
-   garder le contrôle du terminal tout en lançant `gitk` dans le
+   garder le contrôle du terminal tout en lançant *gitk* dans le
    *background*).
 
 Vous observez que les historiques ne sont pas les mêmes du côté de
@@ -295,7 +306,7 @@ instructions pour le gagnant sont en vert (droite).
 
 1. Vous allez renoncer à votre commit. Pour ce faire, vous devez
    ramener la branche master à son état précédent. Avec `log`, ou dans
-   `gitk`, repérez le SHA de l'avant-dernier commit (rappel : le SHA
+   *gitk*, repérez le SHA de l'avant-dernier commit (rappel : le SHA
    c'est cette longue chaîne de chiffres et de lettres qui identifie
    un commit). Ramenez votre branche `master` à ce vieux commit avec
    la commande
@@ -308,7 +319,7 @@ instructions pour le gagnant sont en vert (droite).
    où vous remplacerez `SHA` par une portion initiale du SHA du
    commit.
 
-1. Analysez la situation avec `gitk` (touche `F5` pour actualiser),
+1. Analysez la situation avec *gitk* (touche `F5` pour actualiser),
    avec `log`, et avec `status`.
 
 1. Maintenant éliminez définitivement votre modification à
@@ -341,7 +352,7 @@ instructions pour le gagnant sont en vert (droite).
    ~~~
 
 1. Analysez la nouvelle situation avec les commandes `log`, `show` et
-   avec `gitk`.
+   avec *gitk*.
 
 1. Poussez.
 {:.W}
@@ -368,14 +379,14 @@ comme une page web à l'adresse
    ~~~
    
    Analysez la situation avec la commande `branch -avv` et dans
-   `gitk`.
+   *gitk*.
 
 1. Modifiez le fichier de style. Committez. Analysez la situation avec
-   `gitk` et `log`. Vous remarquez que votre *branche courante* est
+   *gitk* et `log`. Vous remarquez que votre *branche courante* est
    toujours `master`, et que c'est la seule à avoir avancé.
 
 1. Poussez. Analysez la situation avec `branch -avv` et avec
-   `gitk`. Allez dans l'interface web de GitHub et observez les
+   *gitk*. Allez dans l'interface web de GitHub et observez les
    branches connues par celui-ci (URL
    <https://github.com/moi/TD4/branches>).
 
@@ -396,7 +407,7 @@ nom d'utilisateur de **A** (le propriétaire du répertoire). La page
 
 ## Réconcilier deux branches par *fast-forward*
 
-Dans `gitk`, on voit bien que les historiques de `gh-pages` et de
+Dans *gitk*, on voit bien que les historiques de `gh-pages` et de
 `master` n'ont pas divergé. Simplement, le deuxième est plus avancé
 que le premier. Ces deux historiques peuvent être réconciliés par ce
 que l'on appelle un *fast-forward merge*. C'est exactement le même
@@ -404,7 +415,7 @@ processus qui est appliqué (avec les branches distantes) lorsque vous
 exécutez `push --ff-only`.
 
 1. Faites un `fetch`. Analysez la situation avec `branch -avv` et dans
-   `gitk`.
+   *gitk*.
 
 1. Téléchargez localement la branche `gh-pages` par la commande
    
@@ -423,7 +434,7 @@ exécutez `push --ff-only`.
    ~~~
    
    Analysez avec les commandes `log`, `status`, `branch -avv`, et avec
-   `gitk`.
+   *gitk*.
 
 1. Poussez avec la commande
    
@@ -432,7 +443,7 @@ exécutez `push --ff-only`.
    ~~~
    
    Vous voyez dans la sortie de la commande, que cela a poussé la
-   branche `gh-pages`. Vérifiez avec `gitk` et avec l'interface web de
+   branche `gh-pages`. Vérifiez avec *gitk* et avec l'interface web de
    GitHub. Vérifiez que les modifications sont bien appliquées à
    <http://moi.github.io/TD4>.
 
@@ -473,7 +484,7 @@ plus possible. Ici nous créons deux histoires divergentes qui peuvent
 1. Attendez que **A** ait poussé. Poussez. Cela ne marchera pas. Tirez
    avec `pull --ff-only`, cela ne marchera pas.
 
-1. Faites un `fetch`. Analysez la situation dans `gitk`.
+1. Faites un `fetch`. Analysez la situation dans *gitk*.
 
 1. Analysez vos modifications avec
    
@@ -499,7 +510,7 @@ plus possible. Ici nous créons deux histoires divergentes qui peuvent
    ouvre alors un éditeur de texte pour saisir le nouveau message de
    commit pour le commit de *merge*. Saisissez le message et validez.
 
-1. Analysez la situation avec `gitk`.
+1. Analysez la situation avec *gitk*.
 
 1. Analysez la situation dans le graphe de GitHub, à l'adresse
    <http://github.com/moi/TD4/network>.
@@ -541,7 +552,7 @@ synchronisées.
 1. Analysez la situation avec `status`. Marquez le conflit comme étant
    résolu avec `add`. Commitez.
 
-1. Analysez la situation avec `gitk`. Poussez.
+1. Analysez la situation avec *gitk*. Poussez.
 {:.A}
 
 
@@ -565,10 +576,11 @@ demander dans son répertoire.
    *fork* dans l'interface web (URL <https://github.com/moi/TD4/fork>.
 
 1. Ajoutez votre propre fork aux *remotes* de votre répertoire local
-   avec la commande
+   avec les commandes
    
    ~~~
    git remote add my_fork https://github.com/moiB/TD4.git
+   git fetch my_fork
    ~~~
 
 1. Faites *tracer* la branche `master` de votre nouveau fork par la branche
@@ -585,12 +597,12 @@ demander dans son répertoire.
    d'abord sur cette branche avec la commande `checkout`, puis
    utilisez la même commande qu'au point précédent.
 
-1. Analysez la situation avec `branch -avv` et dans `gitk`.
+1. Analysez la situation avec `branch -avv` et dans *gitk*.
 
 1. Faites des modifications aux styles des deux pages html. Commitez.
 
 1. Poussez. Vérifiez que tout s'est bien passé avec `status`, `log`,
-   et `gitk`.
+   et *gitk*.
 
 1. Visitez la page web de votre fork et créez une *pull request* (URL
    https://github.com/moiB/TD4/compare/). Donnez un message expliquant
@@ -605,7 +617,7 @@ demander dans son répertoire.
    elle doit pouvoir être incluse avec un *fast-forward*, par
    conséquent il suffira de cliquer sur le bouton "merge pull request".
 
-1. Tirez et analysez la situation avec `gitk`.
+1. Tirez et analysez la situation avec *gitk*.
 {:.A}
 
 
