@@ -67,3 +67,6 @@ TD2 (06/02/2015)
 
 TD3 (13/02/2015)
 : [Terminal et Git](tutorials/tutorial3)
+
+TD4 (20/02/2015)
+: [Collaborer avec Git](tutorials/tutorial4)
