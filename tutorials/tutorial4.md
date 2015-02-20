@@ -203,6 +203,18 @@ sur les mêmes fichiers, il aurait refusé de tirer.
    apply`. Vérifiez avec `status`. Commitez. Poussez.
 {:.B}
 
+À partir de maintenant on va avoir besoin des commandes `git gui` et
+`gitk`. Vous avez déjà installé ces commandes avec Git, mais elles ne
+sont pas installées sur les cartables numériques. Pour régler le
+problème, copiez-collez cette commande dans le terminal.
+
+~~~
+curl https://gist.githubusercontent.com/defeo/d79877d8548c390028df/raw/apt.sh | /bin/bash
+~~~
+
+Il vous sera demandé le mot de passe utilisateur (rappel: user).
+
+
 ## Faites la guerre
 
 Ceci est un concours de vitesse : le premier qui termine a
