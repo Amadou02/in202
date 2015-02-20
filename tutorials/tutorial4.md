@@ -218,9 +218,10 @@ gagné. Prêts ? C'est parti.
 1. On va utiliser l'interface graphique pour committer la
    modification. Tapez la commande `git gui`, l'interface graphique
    s'ouvre. L'équivalent de la commande `add` se trouve dans le menu
-   *Commit*, et s'appelle *Stage to commit*. L'équivalent de la
-   commande `commit` se trouve dans le même menu. L'équivalent de la
-   commande `push` se trouve dans le menu *Remote*.
+   *Commit*, et s'appelle *Stage to commit* (*Indexer*). L'équivalent
+   de la commande `commit` se trouve dans le même menu. L'équivalent
+   de la commande `push` se trouve dans le menu *Remote* (*Dépots
+   distants*).
 
 1. Committez. Poussez.
 {:.A}
@@ -232,9 +233,10 @@ gagné. Prêts ? C'est parti.
 1. On va utiliser l'interface graphique pour committer la
    modification. Tapez la commande `git gui`, l'interface graphique
    s'ouvre. L'équivalent de la commande `add` se trouve dans le menu
-   *Commit*, et s'appelle *Stage to commit*. L'équivalent de la
-   commande `commit` se trouve dans le même menu. L'équivalent de la
-   commande `push` se trouve dans le menu *Remote*.
+   *Commit*, et s'appelle *Stage to commit* (*Indexer*). L'équivalent
+   de la commande `commit` se trouve dans le même menu. L'équivalent
+   de la commande `push` se trouve dans le menu *Remote* (*Dépots
+   distants*).
 
 1. Committez. Poussez.
 {:.B}
