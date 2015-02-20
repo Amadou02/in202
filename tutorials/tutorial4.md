@@ -113,7 +113,9 @@ git config --global user.email "vous@votre_ordinateur"
    Your branch is up-to-date with 'origin/master'.
    ~~~
    
-   qui vous informe que votre copie locale est à jour.
+   qui vous informe que votre copie locale est à jour (si vous
+   utilisez un cartable numérique, la deuxième ligne risque de ne pas
+   être affichée à cause de la version de Git ; ce n'est pas grave).
 
 1. Utilisez la commande `fetch`, puis à nouveau la commande
    `status`. Si **A** a correctement poussé ses modifications, la
