@@ -41,7 +41,7 @@ Le répertoire a changé localement, l'origine n'a pas bougé.
 	git status
 
 ~~~
-On branch gh-pages
+On branch master
 Your branch is ahead of 'origin/master' by 2 commits.
 (use "git push" to publish your local commits)
 ~~~
@@ -71,8 +71,8 @@ L'origine a changé, le répertoire local n'a pas bougé
 	git status
 
 ~~~
-On branch gh-pages
-Your branch is behind 'origin/gh-pages' by 2 commits,
+On branch master
+Your branch is behind 'origin/master' by 2 commits,
 and can be fast-forwarded.
   (use "git pull" to update your local branch)
 ~~~
@@ -100,8 +100,8 @@ Les deux branches ont subi des modifications concurrentes.
 	git status
 
 ~~~
-On branch gh-pages
-Your branch and 'origin/gh-pages' have diverged,
+On branch master
+Your branch and 'origin/master' have diverged,
 and have 1 and 2 different commits each, respectively.
   (use "git pull" to merge the remote branch into yours)
 ~~~
@@ -143,8 +143,8 @@ Automatic merge failed; fix conflicts and then commit the result.
 	git status
 
 ~~~
-On branch gh-pages
-Your branch and 'origin/gh-pages' have diverged,
+On branch master
+Your branch and 'origin/master' have diverged,
 and have 1 and 2 different commits each, respectively.
   (use "git pull" to merge the remote branch into yours)
 You have unmerged paths.
