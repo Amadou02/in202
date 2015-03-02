@@ -34,7 +34,7 @@ Cours 5 (16/02/2015)
 : [Concepts de Git](classes/class5)
 
 Cours 6 (02/03/2015)
-: Branches et gestion de conflits
+: [Branches et gestion de conflits](classes/class6)
 
 ### Partie 3: presentation et traitement de données 
 

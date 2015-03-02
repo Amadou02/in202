@@ -1,0 +1,3 @@
+[submodule "assets/explain-git-with-d3"]
+	path = assets/explain-git-with-d3
+	url = https://github.com/onlywei/explain-git-with-d3.git
