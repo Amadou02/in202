@@ -1,6 +1,8 @@
 ---
 ---
 
+NodeList.prototype.reduce = Array.prototype.reduce
+
 require ['historyview'], (HistoryView) ->
     
     ################ Merge
@@ -239,7 +241,7 @@ require ['historyview'], (HistoryView) ->
             cs.dataset['score'] = c.dataset['score'] || 0
             c.classList.add 'clicked'
 
-        score = Array.reduce ($$ '.choice[data-score]'), ( (x, y) ->
+        score = ($$ '.choice[data-score]').reduce ( (x, y) ->
             x + Number y.dataset['score'] ), 0
         ($$ '.score').forEach (x) ->
             x.textContent = score
