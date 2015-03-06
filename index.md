@@ -66,11 +66,36 @@ TD2 (06/02/2015)
 : [Mon site personnel et CSS avancé](tutorials/tutorial2)
 
 TD3 (13/02/2015)
-: [Terminal et Git](tutorials/tutorial3)
+: Contrôle continu : [Terminal et Git](tutorials/tutorial3)
 
 TD4 (20/02/2015)
 : [Collaborer avec Git](tutorials/tutorial4)
 
 TD5 (06/03/2015)
 : [Gitopardy!](tutorials/tutorial5)
-: [Collaboration à grande échelle](tutorials/git-project)
+: Contrôle continu : [Collaboration à moyenne échelle](tutorials/git-project)
+
+
+## Bibliographie
+
+### HTML et CSS
+
+MDN (Mozilla developer network)
+: <https://developer.mozilla.org/fr/>,
+: Guides HTML <https://developer.mozilla.org/fr/docs/Web/HTML>,
+: Guides CSS <https://developer.mozilla.org/fr/docs/Web/CSS>.
+
+W3Schools (en anglais)
+: <http://www.w3schools.com/>,
+: Guides HTML <http://www.w3schools.com/html/default.asp>,
+: Guides CSS <http://www.w3schools.com/css/default.asp>.
+
+Cours OpenClassrooms
+: <http://openclassrooms.com/courses/apprenez-a-creer-votre-site-web-avec-html5-et-css3>
+
+---
+
+### Git
+
+Le gitbook
+: <http://git-scm.com/book/fr/v1>
