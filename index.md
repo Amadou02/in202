@@ -73,3 +73,4 @@ TD4 (20/02/2015)
 
 TD5 (06/03/2015)
 : [Gitopardy!](tutorials/tutorial5)
+: [Collaboration à grande échelle](tutorials/git-project)
