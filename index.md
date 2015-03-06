@@ -70,3 +70,6 @@ TD3 (13/02/2015)
 
 TD4 (20/02/2015)
 : [Collaborer avec Git](tutorials/tutorial4)
+
+TD5 (06/03/2015)
+: [Gitopardy!](tutorials/tutorial5)
