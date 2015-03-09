@@ -39,7 +39,7 @@ Cours 6 (02/03/2015)
 ### Partie 3: presentation et traitement de données 
 
 Cours 7 (09/03/2015)
-: Python
+: [Python, IPython](http://nbviewer.ipython.org/github/defeo/in202/blob/gh-pages/classes/class7.ipynb)
 
 Cours 8 (16/03/2015)
 : Matplotlib, pylab
