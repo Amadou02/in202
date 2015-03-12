@@ -52,7 +52,7 @@ partager votre travail et collaborer. Finalement, c'est sur votre
 maîtrise de l'outil Git que vous serez évalués.
 
 **La limite pour la livraison du projet est le jeudi 12 mars à
-minuit. PAS DE *PULL REQUESTS* APRÈS 20 !**
+minuit. PAS DE *PULL REQUESTS* APRÈS 20h !**
 
 
 ## Les outils de collaboration
