@@ -75,6 +75,9 @@ TD5 (06/03/2015)
 : [Gitopardy!](tutorials/tutorial5)
 : Contrôle continu : [Collaboration à moyenne échelle](tutorials/git-project)
 
+TD6 (13/03/2015)
+: [Introduction à Python](tutorials/tutorial6)
+
 
 ## Bibliographie
 
