@@ -182,6 +182,9 @@ avec l'opérateur `*`.
    
    Modifiez la cellule pour obtenir l'affichage `Hello again, world`.
 
+1. La fonction `str` transforme toute valeur en chaîne de
+   caractères. Essayez-la sur un entier.
+
 
 ## Fonctionnement du notebook
 
@@ -335,6 +338,9 @@ plusieurs types différents.
    
    affichez `lo, wo`.
 
+1. La fonction `list` transforme toute valeur en liste. Testez-la sur
+   une chaîne de caractères.
+
 1. Lisez la documentation de la méthode `a.join`. Testez-la.
 
 
@@ -401,7 +407,8 @@ des **dictionnaires**.
    solutions du point précédent en une seule ligne.
 
 1. Étudiez la documentation de la fonction `reversed`. Affichez la
-   liste des entiers de 100 à 0.
+   liste des entiers de 100 à 0 (vous aurez besoin de la combiner avec
+   la fonction `list`).
 
 1. Évaluez la cellule suivante
    
@@ -433,8 +440,8 @@ encore une fois importante.
 1. Créer une liste de 5 personnes. Appeler la fonction sur chaque
    personne à l'aide d'une boucle `for`.
 
-1. Utilisez la fonction `map(fonction, liste)` sur la fonction et la
-   liste définies ci-dessus. Étudier le résultat.
+1. Utilisez les fonctions `list(map(fonction, liste))` sur la fonction
+   et la liste définies ci-dessus. Étudier le résultat.
 
 1. Écrire une fonction `calc(gauche, op, droite)` qui prend en
    paramètre deux opérandes et une opération arithmétique et qui
