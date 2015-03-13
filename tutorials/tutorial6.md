@@ -452,7 +452,7 @@ encore une fois importante.
    
    ~~~
    from IPython.display import HTML
-   print(HTML('<h3>AAA<br>A</h3>'))
+   HTML('<h3>AAA<br>A</h3>')
    ~~~
    
    Écrivez une fonction qui prend en paramètre un dictionnaire, et qui
