@@ -42,7 +42,7 @@ Cours 7 (09/03/2015)
 : [Python, IPython](http://nbviewer.ipython.org/github/defeo/in202/blob/gh-pages/classes/class7.ipynb)
 
 Cours 8 (16/03/2015)
-: Matplotlib, pylab
+: [Matplotlib, pylab](http://nbviewer.ipython.org/github/defeo/in202/blob/gh-pages/classes/class8.ipynb)
 
 Cours 9 (23/02/2015)
 : 
