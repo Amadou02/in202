@@ -41,20 +41,22 @@ Cours 6 (02/03/2015)
 Cours 7 (09/03/2015)
 : [Python, IPython](http://nbviewer.ipython.org/github/defeo/in202/blob/gh-pages/classes/class7.ipynb)
 
-Cours 8 (16/03/2015)
-: [Matplotlib, pylab](http://nbviewer.ipython.org/github/defeo/in202/blob/gh-pages/classes/class8.ipynb)
-
-Cours 9 (23/02/2015)
+Cours 8 (23/02/2015)
 : 
 
-Cours 10 (30/03/2015)
+Cours 9 (30/03/2015)
 : 
 
-Cours 11 (13/04/2015)
+### Partie 4: ...
+
+Cours 10 (13/04/2015)
 : 
 
-Cours 12 (20/04/2015)
+Cours 11 (20/04/2015)
 : 
+
+Cours 12 (04/05/2015)
+: Dernier contrôle continu
 
 
 ## TDs
@@ -77,6 +79,24 @@ TD5 (06/03/2015)
 
 TD6 (13/03/2015)
 : [Introduction à Python](tutorials/tutorial6)
+
+TD7 (20/03/2015)
+: [Graphiques avec matplotlib](http://nbviewer.ipython.org/github/defeo/in202/blob/gh-pages/tutorials/tutorial7.ipynb)
+
+TD8 (27/03/2015)
+: 
+
+TD9 (03/04/2015)
+: 
+
+TD10 (10/04/2015)
+: 
+
+TD11 (17/04/2015)
+: 
+
+TD12 (24/03/2015)
+: 
 
 
 ## Bibliographie
