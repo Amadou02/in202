@@ -84,7 +84,7 @@ TD7 (20/03/2015)
 : [Graphiques avec matplotlib](http://nbviewer.ipython.org/github/defeo/in202/blob/gh-pages/tutorials/tutorial7.ipynb)
 
 TD8 (27/03/2015)
-: 
+: [Analyse de données avec pandas](http://nbviewer.ipython.org/github/defeo/in202/blob/gh-pages/tutorials/tutorial8.ipynb)
 
 TD9 (03/04/2015)
 : 
