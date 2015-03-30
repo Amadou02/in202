@@ -45,7 +45,7 @@ Cours 8 (23/02/2015)
 : [Traitement de données avec pandas](http://nbviewer.ipython.org/github/defeo/in202/blob/gh-pages/classes/class8.ipynb)
 
 Cours 9 (30/03/2015)
-: 
+: [Fouille de données](http://nbviewer.ipython.org/github/defeo/in202/blob/gh-pages/classes/class9.ipynb)
 
 ### Partie 4: ...
 
