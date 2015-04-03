@@ -115,9 +115,9 @@ correspondant respectivement à
 
 ~~~
 trajets.set_index('starttime', inplace=True, drop=False)
-trajets['date'] = T.index.date
-trajets['joursemaine'] = T.index.weekday
-trajets['heure'] = T.index.hour
+trajets['date'] = trajets.index.date
+trajets['joursemaine'] = trajets.index.weekday
+trajets['heure'] = trajets.index.hour
 ~~~
 
 1. Dessiner la durée moyenne des trajets par jour.
