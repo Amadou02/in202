@@ -45,18 +45,19 @@ Quelque solution que vous choisissiez, testez-là avant le TD.
 
 ### Pour tous
 
-Deux serveurs IPython dans le cloud sont disponibles aux adresses
+Trois serveurs IPython dans le cloud sont disponibles aux adresses
 
 - <http://cloud.sagemath.com>,
 - <http://defeo2-8888.terminal.com/>.
+- <http://proust.prism.uvsq.fr/ipython/> (accès authentifié UVSQ).
 
-Choisissez celle qui marche mieux pour vous.
+Choisissez celui qui marche mieux pour vous.
 
 ### Pour les cartables numériques
 
 À faire en dernier recours, lorsque les autres solutions ne marchent
 pas. Cela peut demander quelques minutes, à faire impérativement avec
-une connexion cablée.
+une connexion câblée.
 
 Installer Ipython en local avec la commande
 
