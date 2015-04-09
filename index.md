@@ -87,10 +87,11 @@ TD8 (27/03/2015)
 : [Analyse de données avec pandas](http://nbviewer.ipython.org/github/defeo/in202/blob/gh-pages/tutorials/tutorial8.ipynb)
 
 TD9 (03/04/2015)
-: Contrôle continu : [Divvy data challenge](tutorials/tutorial9)
+: Contrôle continu : [Divvy data challenge](tutorials/tutorial9) – [solution](http://nbviewer.ipython.org/github/defeo/in202/blob/gh-pages/tutorials/tutorial9.ipynb)
 
 TD10 (10/04/2015)
-: 
+: Contrôle continu : [Divvy data challenge 2](tutorials/tutorial10)
+
 
 TD11 (17/04/2015)
 : 
