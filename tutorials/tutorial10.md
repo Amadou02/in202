@@ -61,7 +61,7 @@ une connexion câblée.
 
 Installer Ipython en local avec la commande
 
-	curl https://gist.githubusercontent.com/defeo/ef11f2d04a78b68e357e/raw/ef9a0dc9c87d3c1052b2a3ade9b63c7dcf370092/apt.sh | bin bash
+	curl https://gist.githubusercontent.com/defeo/ef11f2d04a78b68e357e/raw/ef9a0dc9c87d3c1052b2a3ade9b63c7dcf370092/apt.sh | /bin/bash
 
 Il vous sera demandé le mot de passe utilisateur (rappel: user).
 
