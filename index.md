@@ -50,7 +50,7 @@ Cours 9 (30/03/2015)
 ### Partie 4: ...
 
 Cours 10 (13/04/2015)
-: 
+: [Lego NXT](classes/class10)
 
 Cours 11 (20/04/2015)
 : 
@@ -92,9 +92,8 @@ TD9 (03/04/2015)
 TD10 (10/04/2015)
 : Contrôle continu : [Divvy data challenge 2](tutorials/tutorial10)
 
-
 TD11 (17/04/2015)
-: 
+: [Prise en main de Lego NXT](tutorials/tutorial10.1)
 
 TD12 (24/03/2015)
 : 
