@@ -98,13 +98,71 @@ meteo     = pd.read_csv('datachallenge-in202/meteo.csv',
 
 ## Analyse
 
+Comme la semaine dernière, il faudra enrichir les données en extrayant
+la date, le jour de la semaine et l'heure du trajet.
+
+~~~
+trajets.set_index('starttime', inplace=True, drop=False)
+trajets['date'] = trajets.index.date
+trajets['joursemaine'] = trajets.index.weekday
+trajets['heure'] = trajets.index.hour
+~~~
+
+
 ### Croiser avec les données géographiques <small>(3 points)</small>
 
-Publié vendredi.
+Les tables `trajets` et `distances` ont deux colonnes qui permettent
+de faire le lien avec les stations :
 
-### Pas de vie privée pour les vieux (et les menteurs) <small>(4 points)</small>
+- `from_station_id` : l'identifiant de la station de départ,
+- `to_station_id` : l'identifiant de la station d'arrivée.
 
-Publié vendredi.
+Ces colonnes correspondent aussi à la colonne `id` de la table
+`stations`, mais nous ne nous servirons pas de cette dernière.
+
+1. Fusionner les trajets avec les distances le long de ces colonnes.
+
+1. Ajouter une colonne `vitesse`, calculée à partir de la distance et
+   de la durée du trajet. La vitesse doit être exprimée en Km/h.
+
+1. Dessiner la vitesse moyenne en fonction de la date.
+
+1. Dessiner la vitesse moyenne des hommes en fonction de la date. Même
+   chose pour les femmes.
+
+1. On remarque la même régularité déjà observée pour la durée des
+   trajets. Dessiner, avec un diagramme en bâtons, la vitesse moyenne
+   par jour de la semaine.
+
+1. Dessiner la vitesse moyenne en fonction de la date, en excluant les
+   jours du week-end (rappel : samedi = 5, dimanche = 6).
+
+1. Identifier les trois jours hors week-end où l'on observe une
+   vitesse moyenne anormalement basse. Donnez votre explication de
+   cette observation.
+
+### L'heure de pointe <small>(4 points)</small>
+
+1. Dessiner, avec un diagramme en bâtons, le nombre de trajets en
+   fonction de l'heure.
+
+1. Même question qu'auparavant, mais uniquement pour les jours en
+   semaine.
+
+1. Même question qu'auparavant, mais uniquement pour les jours en
+   week-end.
+
+1. On constate que 17h est de loin l'heure de pointe en
+   semaine. Afficher la vitesse moyenne de l'heure de pointe. Est-elle
+   supérieure ou inférieure à la vitesse moyenne générale ?
+
+1. Afficher les 5 stations de départ les plus utilisés à l'heure de pointe.
+
+1. Afficher les 10 trajets les plus empruntés à l'heure de pointe.
+
+1. Pour chacun de ces 10 trajets, afficher la vitesse moyenne.
+
+
 
 ### Croiser avec les données météo <small>(bonus)</small>
 
