@@ -93,7 +93,7 @@ TD10 (10/04/2015)
 : Contrôle continu : [Divvy data challenge 2](tutorials/tutorial10)
 
 TD11 (17/04/2015)
-: [Prise en main de Lego NXT](tutorials/tutorial10.1)
+: [Prise en main de Lego NXT](tutorials/tutorial11)
 
 TD12 (24/03/2015)
 : 
