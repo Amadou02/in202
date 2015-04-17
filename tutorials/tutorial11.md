@@ -67,7 +67,7 @@ Dans un notebook IPython, tapez la commande suivante.
 
 ~~~
 import nxt
-b = nxt.find_one_device()
+b = nxt.find_one_brick()
 ~~~
 
 L'objet `b` représente l'état de votre robot, et vous permet de le
@@ -213,7 +213,7 @@ revenir à taper cette commande dans le notebook :
 avant de procéder comme d'habitude :
 
 ~~~
-b = nxt.find_one_device(name='NXT-1')
+b = nxt.find_one_brick(name='NXT-1')
 ~~~
 
 Remplacez `NXT-1` par le nom de votre *brick*. Après quelques
