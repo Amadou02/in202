@@ -52,8 +52,8 @@ Cours 9 (30/03/2015)
 Cours 10 (13/04/2015)
 : [Lego NXT](classes/class10)
 
-Cours 11 (20/04/2015)
-: 
+Cours 11 (20/04/2015) 
+: [Prise en main de Lego NXT](tutorials/tutorial11)
 
 Cours 12 (04/05/2015)
 : Dernier contrôle continu
