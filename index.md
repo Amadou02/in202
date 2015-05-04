@@ -56,7 +56,7 @@ Cours 11 (20/04/2015)
 : [Prise en main de Lego NXT](tutorials/tutorial11)
 
 Cours 12 (04/05/2015)
-: Dernier contrôle continu
+: [Dernier contrôle continu](tutorials/final)
 
 
 ## TDs
