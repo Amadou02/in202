@@ -47,7 +47,7 @@ Cours 8 (23/02/2015)
 Cours 9 (30/03/2015)
 : [Fouille de données](http://nbviewer.ipython.org/github/defeo/in202/blob/gh-pages/classes/class9.ipynb)
 
-### Partie 4: ...
+### Partie 4: *robotique*
 
 Cours 10 (13/04/2015)
 : [Lego NXT](classes/class10)
@@ -97,6 +97,12 @@ TD11 (17/04/2015)
 
 TD12 (24/03/2015)
 : [Prise en main de Lego NXT](tutorials/tutorial11)
+
+
+## Contrôles
+
+Examen de rattrapage (15/06/2015)
+: [Sujet](tutorials/rattrapage)
 
 
 ## Bibliographie
